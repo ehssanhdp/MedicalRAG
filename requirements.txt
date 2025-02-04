@@ -1,0 +1,9 @@
+torch
+pandas
+transformers
+pinecone-client
+python-dotenv
+pydantic
+groq
+PyQt5
+timescale-vector
