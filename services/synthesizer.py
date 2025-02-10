@@ -16,16 +16,6 @@ class Synthesizer:
 
     @staticmethod
     def generate_response(question: str, context: str) -> any:
-        """
-        Generates a synthesized response based on the question and context.
-
-        Args:
-            question (str): The user's question.
-            context (pd.DataFrame): The relevant context retrieved from the knowledge base.
-
-        Returns:
-            SynthesizedResponse: A Pydantic model with the thought process and final answer.
-        """
 
         messages = [
     {"role": "system", "content": Synthesizer.SYSTEM_PROMPT},
